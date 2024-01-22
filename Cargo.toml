@@ -1,5 +1,5 @@
 [package]
-name = "pigeon-backpack"
+name = "pigeon-swiper"
 authors = ["Kara Graysen <kara.graysen@gmail.com>"]
 version = "0.1.0"
 edition = "2021"

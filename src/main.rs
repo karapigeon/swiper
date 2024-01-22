@@ -9,7 +9,7 @@ async fn main() {
     // TODO: Replace 'Hello World' route with real implementation.
     let app = Router::new().route("/", get(|| async { "Hello, World!" }));
 
-    let axum_port = match env::var("BACKPACK_AXUM_PORT") {
+    let axum_port = match env::var("SWIPER_AXUM_PORT") {
         Ok(unwrapped_axum_port) => {
             println!("Binding Axum to port assigned in the .env: {}", unwrapped_axum_port);
             unwrapped_axum_port
